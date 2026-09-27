@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* Ascunde scrollbar-ul pentru Chrome, Safari și Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ascunde scrollbar-ul pentru Firefox */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth; /* <-- Face orice salt la un ID (#) să alunece lin */
+  color-scheme: dark;
+}
